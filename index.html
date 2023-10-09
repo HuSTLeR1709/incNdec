@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="w-[100vw] h-[100vh] flex flex-col items-center justify-center bg-[#344151] gap-10">
+        <div class="text-[30px] text-[#0398d4 font-medium]">Incrementer And Decrementer</div>
+        <div class="bg-white flex text-[25px] text-[#344151] rounded-sm gap-12 p-3 px-5">
+                <button onclick="decrement()" class="border-r-2 border-[#bfbfbf] pr-5">
+                    <i class="fa-solid fa-minus">
+
+                    </i>
+
+                </button>
+                <div id="value" class="font-bold">
+                    0
+                </div>
+                <button onclick="increment()"  class="border-l-2 border-[#bfbfbf] pl-5">
+                    <i class="fa-solid fa-plus">
+
+                    </i>
+                </button>
+                
+            </div>
+            <div>
+                <button onclick="reset()" class="border-2 border-black h-[50px] w-[120px] rounded-md bg-white text-[30px] font-semibold" >
+                    RESET
+                </button>
+            </div>
+        </div>
+        <script src="https://kit.fontawesome.com/cadca7bdc7.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    
+</body>
+</html>
