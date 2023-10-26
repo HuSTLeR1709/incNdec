@@ -18,3 +18,15 @@ const reset=()=>{
     value=0;
     v.innerText=value;
 }
+
+const plusten =() =>{
+    let value =parseInt(v.innerText);
+    value=value+10;
+    v.innerText=value;
+}
+
+const minusten =() =>{
+    let value =parseInt(v.innerText);
+    value=value-10;
+    v.innerText=value;
+}
